@@ -9,10 +9,10 @@
 // @require      https://github.com/ElDiegu/diegus-scripts/raw/script/war-weapons-selector/war-weapons-selector/war-weapons-selector.js
 // ==/UserScript==
 
-const metaData = {
+const compendium_metaData = {
     name: "Diegu's Script Compendium",
     version: "alphav1.0"
 };
 
-const nameVersion = `${metaData.name} ${metaData.version}`;
-console.log("Initializing " + nameVersion);
+const compendium_nameVersion = `${compendium_metaData.name} ${compendium_metaData.version}`;
+console.log("Initializing " + compendium_nameVersion);
