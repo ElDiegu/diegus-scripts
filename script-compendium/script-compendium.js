@@ -6,7 +6,7 @@
 // @match        https://rivalregions.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=rivalregions.com
 // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
-// @require      https://github.com/ElDiegu/diegus-scripts/blob/script/war-weapons-selector/war-weapons-selector/war-weapons-selector.js
+// @require      https://github.com/ElDiegu/diegus-scripts/raw/script/war-weapons-selector/war-weapons-selector/war-weapons-selector.js
 // ==/UserScript==
 
 const metaData = {
