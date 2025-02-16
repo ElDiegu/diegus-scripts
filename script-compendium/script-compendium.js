@@ -1,0 +1,18 @@
+// ==UserScript==
+// @name         War Weapons Selector
+// @version      0.1
+// @description  Places full, half or 2/3 of usable weapons in weapons slots of wars.
+// @author       Discord: el_diegu
+// @match        https://rivalregions.com/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=rivalregions.com
+// @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
+// @require      https://github.com/ElDiegu/diegus-scripts/blob/script/war-weapons-selector/war-weapons-selector/war-weapons-selector.js
+// ==/UserScript==
+
+const metaData = {
+    name: "Diegu's Script Compendium",
+    version: "alphav1.0"
+};
+
+const nameVersion = `${metaData.name} ${metaData.version}`;
+console.log("Initializing " + nameVersion);
