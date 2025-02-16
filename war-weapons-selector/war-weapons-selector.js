@@ -8,7 +8,12 @@
 // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 
-const nameVersion = `${GM_info.script.name} v${GM_info.script.version}`;
+const metaData = {
+    name: "War Weapons Selector",
+    version: "v0.1"
+};
+
+const nameVersion = `${metaData.name} ${metaData.version}`;
 console.log("Initializing " + nameVersion);
 
 const level = document.getElementsByClassName("my_expbar_exp")[0].innerText;
