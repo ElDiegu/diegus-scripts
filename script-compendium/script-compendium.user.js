@@ -7,8 +7,8 @@
 // @match        https://rivalregions.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=rivalregions.com
 // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
-// @downloadURL  https://raw.githubusercontent.com/ElDiegu/diegus-scripts/main/script-compendium/script-compendium.js
-// @updateURL    https://raw.githubusercontent.com/ElDiegu/diegus-scripts/main/script-compendium/script-compendium.js
+// @downloadURL  https://raw.githubusercontent.com/ElDiegu/diegus-scripts/main/script-compendium/script-compendium.user.js
+// @updateURL    https://raw.githubusercontent.com/ElDiegu/diegus-scripts/main/script-compendium/script-compendium.user.js
 // ==/UserScript==
 
 const metaData = {
