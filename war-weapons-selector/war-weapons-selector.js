@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         War Weapons Selector
-// @version      0.1
+// @namespace    github.com/ElDiegu:war_weapons_selector
+// @version      1.0
 // @description  Places full, half or 2/3 of usable weapons in weapons slots of wars.
 // @author       Discord: el_diegu
 // @match        https://rivalregions.com/
@@ -10,7 +11,7 @@
 
 const metaData = {
     name: "War Weapons Selector",
-    version: "v0.1"
+    version: "v1.0"
 };
 
 const nameVersion = `${metaData.name} ${metaData.version}`;
