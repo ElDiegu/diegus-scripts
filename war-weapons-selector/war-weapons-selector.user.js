@@ -35,7 +35,7 @@ setTimeout(function() {
 function initializeInterface() {
     if (!location.href.includes("/#war/details/")) return;
     
-    console.log(nameVersion + ": initializing interface");
+    console.log(`${wws_metaData.name} ${wws_metaData.version}: initializing interface`);
     
     document.querySelectorAll(".war_w_unit").forEach(unit => {
         var fullButton = '<div id="full_button_' + unit.parentElement.getAttribute("url") + '"class="button_green">Full</div>';
