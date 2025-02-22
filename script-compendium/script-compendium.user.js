@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Diegu's Script Compendium
 // @namespace    github.com/ElDiegu:script_compendium
-// @version      alphav1.1
+// @version      alphav1.1a
 // @description  This script serves as a way to centralize the loading of all my QoL scripts
 // @author       Discord: el_diegu
 // @match        https://rivalregions.com/
@@ -12,10 +12,9 @@
 // @updateURL    https://raw.githubusercontent.com/ElDiegu/diegus-scripts/main/script-compendium/script-compendium.user.js
 // ==/UserScript==
 
-const metaData = {
+const sc_metaData = {
     name: "Diegu's Script Compendium",
-    version: "alphav1.1"
+    version: "alphav1.1a"
 };
 
-const nameVersion = `${metaData.name} ${metaData.version}`;
-console.log("Initializing " + nameVersion);
+console.log(`Initializing ${sc_metaData.name} ${sc_metaData.version}`);

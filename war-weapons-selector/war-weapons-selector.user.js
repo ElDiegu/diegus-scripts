@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         War Weapons Selector
 // @namespace    github.com/ElDiegu:war_weapons_selector
-// @version      1.0
+// @version      1.1
 // @description  Places full, half or 2/3 of usable weapons in weapons slots of wars.
 // @author       Discord: el_diegu
 // @match        https://rivalregions.com/
@@ -9,13 +9,12 @@
 // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 
-const metaData = {
+const wws_metaData = {
     name: "War Weapons Selector",
-    version: "v1.0"
+    version: "v1.1"
 };
 
-const nameVersion = `${metaData.name} ${metaData.version}`;
-console.log("Initializing " + nameVersion);
+console.log(`Initializing ${wws_metaData.name} ${wws_metaData.version}`);
 
 const level = document.getElementsByClassName("my_expbar_exp")[0].innerText;
 const alphaDamage = 125000 + 2500 * (level - 30);
